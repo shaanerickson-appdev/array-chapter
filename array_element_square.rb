@@ -12,4 +12,4 @@ user_string = gets.chomp
 
 user_numbers = user_string.split
 
-p user_numbers[-2].to_i**2
+p user_numbers[-2].to_f**2
