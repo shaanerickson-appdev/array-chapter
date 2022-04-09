@@ -7,3 +7,9 @@
 #   difference
 
 array = [12, 23, 41, 73, 19, 6]
+
+low = array.min
+high = array.max
+p low.to_s
+p high.to_s
+p (high-low).to_s
